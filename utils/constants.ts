@@ -1,0 +1,27 @@
+export const URLS = {
+  TRANSACTION: '/transactions',
+  RETRY: '/retry',
+  SUMMARY: '/summary'
+};
+
+export const STATUS = {
+  RECEIVED: 'RECEIVED',
+  PROCESSING: 'PROCESSING',
+  PROCESSED: 'PROCESSED',
+  DUPLICATE: 'DUPLICATE',
+  FAILED: 'FAILED',
+  RETRY_PENDING: 'RETRY_PENDING',
+  VALIDATION_FAILED: 'VALIDATION_FAILED'
+};
+
+export const TRANSACTION_TYPES = {
+  CREDIT: 'CREDIT',
+  DEBIT: 'DEBIT',
+  REVERSAL: 'REVERSAL'
+};
+
+export const ACCOUNTS = {
+  ACCOUNT_201: 'ACC-201',
+  ACCOUNT_202: 'ACC-202',
+  ACCOUNT_203: 'ACC-203'
+};
